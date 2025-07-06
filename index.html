@@ -1,121 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ABN Consultancy</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-    .logo {
-      max-width: 150px;
-      margin-bottom: 1rem;
-    }
-    .tagline {
-      font-size: 1.2rem;
-      font-style: italic;
-    }
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      background-color: #00509e;
-    }
-    nav ul li {
-      margin: 0 1rem;
-    }
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-      padding: 1rem;
-      display: block;
-    }
-    nav ul li a:hover {
-      background-color: #003f7f;
-    }
-    main {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-      background-color: white;
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #003366;
-      color: white;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABN Consultancy</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="logo.jpg" alt="ABN Consultancy Logo" class="logo">
-    <h1>ABN Consultancy</h1>
-    <p class="tagline">Where Innovation Meets Intelligence</p>
-  </header>
+    <header>
+        <img src="logo.jpg" alt="ABN Consultancy Logo" class="logo">
+        <h1>ABN Consultancy</h1>
+        <p class="tagline">Where Innovation Meets Intelligence</p>
+        <nav>
+            <ul>
+                <li><a href="#about" title="Learn more about our vision, mission, and expertise">About</a></li>
+                <li><a href="#services" title="Explore the customized solutions we offer">Services</a></li>
+                <li><a href="#training" title="Discover our hands-on training and certification programs">Training</a></li>
+                <li><a href="#contact" title="Get in touch with us for inquiries or collaboration">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <nav>
-    <ul>
-      <li><a href="#about">About Us</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#training">Training</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>ABN Consultancy is a forward-thinking technology firm specializing in Robotics, Artificial Intelligence, and Industrial Automation. Our mission is to deliver cutting-edge solutions that transform businesses, enhance productivity, and drive sustainable growth. With a team of experienced engineers, researchers, and strategists, we bring innovation to life across industries ranging from manufacturing to logistics.</p>
+        </section>
 
-  <main>
-    <section id="about">
-      <h2>About ABN Consultancy</h2>
-      <p>ABN Consultancy is a startup focused on delivering innovative solutions in <strong>Robotics</strong>, <strong>Artificial Intelligence</strong>, and <strong>Industrial Automation</strong>. We work with industries to build smart systems that improve productivity, quality, and safety.</p>
-    </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li><strong>Custom Robotics Integration:</strong> Design and implementation of tailor-made robotic systems to meet specific operational needs, from assembly lines to logistics.</li>
+                <li><strong>AI-Powered Automation Solutions:</strong> Smart automation using computer vision, machine learning, and natural language processing to boost efficiency and reduce manual effort.</li>
+                <li><strong>Industrial Process Optimization:</strong> Data-driven insights and digital twin models to streamline processes, reduce waste, and ensure continuous improvement.</li>
+            </ul>
+        </section>
 
-    <section id="services">
-      <h2>What We Do</h2>
-      <ul>
-        <li>Industrial Robotics Integration</li>
-        <li>AI-based Automation Solutions</li>
-        <li>Custom Embedded & IoT Systems</li>
-        <li>Vision Systems & Quality Inspection</li>
-      </ul>
-    </section>
+        <section id="training">
+            <h2>Training</h2>
+            <p>We provide a range of professional development programs tailored for both individuals and enterprises looking to stay ahead in the tech space. Our offerings include:</p>
+            <ul>
+                <li><strong>Introduction to Robotics:</strong> Learn the basics of robotics, programming microcontrollers, and building simple robotic systems.</li>
+                <li><strong>AI & Machine Learning Bootcamps:</strong> Hands-on courses covering Python, machine learning algorithms, and real-world applications.</li>
+                <li><strong>Industrial Automation Workshops:</strong> PLC programming, sensor integration, and SCADA systems for automation engineers and technicians.</li>
+                <li><strong>Customized Corporate Training:</strong> Tailored modules to upskill your workforce based on your industry needs.</li>
+            </ul>
+        </section>
 
-    <section id="training">
-      <h2>Training Programs</h2>
-      <p>We offer hands-on training in:</p>
-      <ul>
-        <li>ROS/ROS2 and Robot Programming</li>
-        <li>Machine Learning & Deep Learning</li>
-        <li>Computer Vision & AI Applications</li>
-        <li>Automation using Arduino, Raspberry Pi</li>
-      </ul>
-    </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:info@abnconsultancy.com">info@abnconsultancy.com</a><br>
+            LinkedIn: <a href="#">ABN Consultancy</a></p>
+        </section>
+    </main>
 
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <p>Email: <a href="mailto:info@abnconsultancy.com">info@abnconsultancy.com</a></p>
-      <p>Phone: +91-XXXXXXXXXX</p>
-      <p>Location: India | Europe</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 ABN Consultancy. All rights reserved.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 ABN Consultancy. All rights reserved.</p>
+    </footer>
 </body>
 </html>
